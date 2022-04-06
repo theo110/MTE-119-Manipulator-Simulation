@@ -89,7 +89,7 @@ def simulate(min, max, iter):
     }
     return res
  
-print(simulate(0,1,100))
+print(simulate(0,1,1000))
  
  
 
