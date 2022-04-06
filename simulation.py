@@ -32,12 +32,10 @@ def calc(l1,l2,l3,scenarioAngle, scenarioX, scenarioY):
     dm1 = d1/2
     dm2 = d1 + d2/2
     dm3 = d1 + d2 + d3/2
-    #note claw weight acts on end position
  
     t1 = dm1 * 4 * 9.81 * l1
     t2 = dm2 * 2 * 9.81 * l2
     t3 = dm3 * 1 * 9.81 * l3
- 
  
     tClaw = 5 * 9.81 * scenarioX
     tTotal = t1 + t2 + t3 + tClaw
